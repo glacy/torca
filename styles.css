@@ -1,0 +1,57 @@
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+canvas {
+  max-width: 100%;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.site-footer {
+  background: #6cc9f8;
+  padding: 20px;
+  font-size: 10pt;
+}
+
+.btn {
+  border-style: solid solid solid solid;
+  border-image: linear-gradient(
+      45deg,
+      #002856ff,
+      #7a8aa7ff,
+      #a0af84ff,
+      #ff6666ff,
+      #aa4242ff
+    )
+    1;
+  font-size: 12pt;
+}
+
+.material-icons {
+  transform: translateY(11.5%);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff4000ff;
+}
+
+nav {
+  background-color: #6cc9f8;
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+  background: #6cc9f8;
+}
