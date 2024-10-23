@@ -57,12 +57,17 @@ La persona usuaria ingresa los parámetros:
 - :basketball: velocidad de lanzamiento
 - 🔃ángulo de lanzamiento
 
+
+## FEM inducida
+
 :link: [enlace](https://glacy.github.io/induccion_EM/)
 
 Visualización interactiva de fem inducida:
 
 - :video_game: Asymptote
-- 
+
+
+## Torca
 :link: [enlace](https://glacy.github.io/torca/)
 
 Visualización interactiva de la torca:
