@@ -16,9 +16,9 @@ real h=.15;
 
 // Dibujo del cilindro
 revolution R=cylinder(-h/2*Z,r,h);
-draw(surface(R),c2+opacity(.9),render(compression=Low));
-draw(shift(0,0,h/2)*unitdisk,c2+opacity(.9),render(compression=Low));
-draw(shift(0,0,-h/2)*unitdisk,c2+opacity(.9),render(compression=Low));
+draw(surface(R),c2+opacity(.5),render(compression=High));
+draw(shift(0,0,h/2)*unitdisk,c2+opacity(.5),render(compression=Low));
+draw(shift(0,0,-h/2)*unitdisk,c2+opacity(.5),render(compression=Low));
 path3 c=circle((0,0,0), r, Z);
 draw(shift(0,0,h/2)*c);
 draw(shift(0,0,-h/2)*c);
@@ -62,7 +62,7 @@ path3 r=shift(t0)*(origin--t0);
 draw(Label("$\vec{\tau}$",EndPoint),origin-- -1*Z, red+linewidth(2), Arrow3(size=5));
 dot(t0);
 
-draw(Label("$\vec{r}$",MidPoint),origin--t0, orange+linewidth(2), Arrow3(size=5));
+draw(Label("$\vec{r}$",MidPoint),origin--t0, green+linewidth(2), Arrow3(size=5));
 //draw(r);
 draw(Label("$\vec{F}$",EndPoint),t0--t1, black+linewidth(2), Arrow3(size=5));
 
